@@ -1,0 +1,72 @@
+/* line 1, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+.container-nav {
+  width: 1170px;
+  margin: 0 auto; }
+  @media all and (max-width: 1250px) {
+    /* line 5, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+    .container-nav .container-nav {
+      width: 94%; } }
+
+/* line 12, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+.navbar-default {
+  padding: 25px 0;
+  border: 0;
+  background-color: transparent;
+  -webkit-transition: padding 0.3s;
+  -moz-transition: padding 0.3s;
+  transition: padding 0.3s; }
+  /* line 19, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-default .navbar-shrink {
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 2px solid #3b3ba8; }
+  /* line 24, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-default .navbar-brand {
+    font-family: 'FrutigerLTStd-Roman',"Helvetica Neue",Helvetica,Arial,cursive;
+    color: #f84b00;
+    background-image: url(../img/chrona-header-24.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 275px;
+    height: 54px; }
+  /* line 33, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: 'FrutigerLT-Bold',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    line-height: 40px !important;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  /* line 45, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-default .nav:first-child > .active > a {
+    background-color: #d89339;
+    color: #fff; }
+    /* line 48, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+    .navbar-default .nav:first-child > .active > a:hover {
+      color: #fff; }
+  /* line 52, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-default .nav:first-child li a {
+    color: #4D4D4D; }
+
+/* line 58, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+.navbar-right li {
+  background-color: #4D4D4D;
+  padding: 6px 0 4px 0;
+  margin: 0px 3px;
+  border-radius: 4px; }
+  /* line 63, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-right li:last-child {
+    margin-right: 0;
+    background-color: #3b3ba8; }
+  /* line 67, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+  .navbar-right li:nth-child(3) {
+    background-color: #4D4D4D; }
+
+/* line 72, /Users/SamCasey/Documents/_Clients/Ultradia/Website/public_html/css/careers-nav.scss */
+.nav-sn:focus {
+  color: #fff !important; }
+
+/*# sourceMappingURL=careers-nav.css.map */
