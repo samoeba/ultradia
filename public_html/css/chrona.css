@@ -135,7 +135,7 @@ p {
 
 .navbar-right li:last-child {
 	margin-right: 0;
-	background-color: #3b3ba8;
+	background-color: #00259A;
 }
 
 .nav-sn:focus {
@@ -145,7 +145,7 @@ p {
 #video {
 	padding-top: 9%;
 	padding-bottom: 85px;
-/*	background: url('/img/chrona-video-bg2.jpg') center/cover no-repeat ;*/
+/*	background: url('../img/chrona-video-bg2.jpg') center/cover no-repeat ;*/
 	background: none;
 }
 
@@ -619,38 +619,38 @@ ul.social-buttons li a i {
 	height: 90px;
 	margin: 0 auto;
 	display: block;
-	background: url(/img/press/huff-post.jpg) no-repeat;
+	background: url(../img/press/huff-post.jpg) no-repeat;
 	background-position: top center;
 	background-size: contain;
 	margin-bottom: 3%;
 }
 
 .container-press .row-center .press-quote-container:last-child .press-img {
-	background-image: url(/img/press/entrepreneur.jpg);
+	background-image: url(../img/press/entrepreneur.jpg);
 	background-position: center 80%;
 	background-size: 81%;
 }
 
 .container-press .row-center:nth-child(2) .press-quote-container .press-img {
-	background-image: url(/img/press/askmen.jpg);
+	background-image: url(../img/press/askmen.jpg);
 	background-position: 60% 100%;
 	background-size: contain;
 }
 
 .container-press .row-center:nth-child(2) .press-quote-container:last-child .press-img {
-	background-image: url(/img/press/digital-trends.jpg);
+	background-image: url(../img/press/digital-trends.jpg);
 	background-position: center 80%;
 	background-size: 80%;
 }
 
 .container-press .row-center:last-child .press-quote-container .press-img {
-	background-image: url(/img/press/fox.jpg);
+	background-image: url(../img/press/fox.jpg);
 	background-position: center 80%;
 	background-size: 60%;
 }
 
 .container-press .row-center:last-child .press-quote-container:last-child .press-img {
-	background-image: url(/img/press/sleep-review.png);
+	background-image: url(../img/press/sleep-review.png);
 	background-position: bottom;
 	background-size: 75%;
 }
@@ -744,7 +744,7 @@ ul.social-buttons li a i {
 		height: 90px;
 		margin: 0 auto;
 		display: block;
-		background: url(/img/press/huff-post.jpg) no-repeat;
+		background: url(../img/press/huff-post.jpg) no-repeat;
 		background-position: top center;
 		background-size: contain;
 		margin-bottom: 3%;
@@ -965,7 +965,7 @@ footer form p:last-child input {
 		background-size: auto 74%;
 	}
 	.container-press .row-center:nth-child(2) .press-quote-container .press-img {
-		background-image: url(/img/press/askmen.jpg);
+		background-image: url(../img/press/askmen.jpg);
 		background-position: bottom;
 		background-size: auto 70%;
 	}
@@ -1696,31 +1696,31 @@ footer form p:last-child input {
 	}
 
 	.container-press .row-center .press-quote-container:last-child .press-img {
-		background-image: url(/img/press/entrepreneur.jpg);
+		background-image: url(../img/press/entrepreneur.jpg);
 		background-position: bottom;
 		background-size: 55%;
 	}
 
 	.container-press .row-center:nth-child(2) .press-quote-container .press-img {
-		background-image: url(/img/press/askmen.jpg);
+		background-image: url(../img/press/askmen.jpg);
 		background-position: bottom;
 		background-size: 50%;
 	}
 
 	.container-press .row-center:nth-child(2) .press-quote-container:last-child .press-img {
-		background-image: url(/img/press/digital-trends.jpg);
+		background-image: url(../img/press/digital-trends.jpg);
 		background-position: bottom;
 		background-size: 70%;
 	}
 
 	.container-press .row-center:last-child .press-quote-container .press-img {
-		background-image: url(/img/press/fox.jpg);
+		background-image: url(../img/press/fox.jpg);
 		background-position: bottom;
 		background-size: 50%;
 	}
 
 	.container-press .row-center:last-child .press-quote-container:last-child .press-img {
-		background-image: url(/img/press/sleep-review.png);
+		background-image: url(../img/press/sleep-review.png);
 		background-position: bottom;
 		background-size: 55%;
 	}
