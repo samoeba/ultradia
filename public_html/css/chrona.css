@@ -1194,7 +1194,8 @@ footer form p:last-child input {
 	footer .container .row div:last-child {
 		float: none;
 		margin: 0 auto;
-		padding-top: 60px;
+		padding-top: 20px;
+		clear: both;
 	}
 	
 }
