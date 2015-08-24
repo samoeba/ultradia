@@ -2,7 +2,7 @@
    Purple - #00259A 
 	 Lt. Purple - #07319B
    Gray - #e6e6e6 - #4D4D4D
-   Gold - #c08d32 - #d89339
+   Gold - #c08d32 - #d89339 ----- #e7a236
    Orange - #f84b00
 */
 
@@ -55,8 +55,8 @@ body {
 	-webkit-box-pack:center;
 
 	/* W3C */
-	display:box;
-	box-pack:center;
+	display: box;
+	box-pack: center;
 }	
 }
 
@@ -66,12 +66,12 @@ section {
 }
 
 footer {
-	background: #3b3ba8;
+	background: #00259A;
 }
 
 p {
-	font: 16px/140% 'FrutigerLTStd-Roman';
-	color: #3b3ba8;
+	font: 19px/140% 'FrutigerLTStd-Roman';
+	color: #00259A;
 }
 
 .navbar-default {
@@ -90,7 +90,7 @@ p {
 .chrona-page-logo .navbar-default .navbar-brand {
     font-family: 'FrutigerLTStd-Roman',"Helvetica Neue",Helvetica,Arial,cursive;
     color: #f84b00;
-    background-image: url(../img/chrona-header-24.png);
+    background-image: url(../img/Chrona-Horizontal.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 275px;
@@ -110,7 +110,7 @@ p {
 }
 
 .navbar-default .nav:first-child>.active>a {
-	background-color: #d89339;
+	background-color: #e7a236;
 	color: #fff;
 }
 
@@ -296,7 +296,7 @@ iframe {
 }
 
 #chrona-about {
-	background: #d89339;
+	background: #e7a236;
 	padding-top: 3%;
 	padding-bottom: 2%;
 }
@@ -309,8 +309,12 @@ img {
 	max-width: 95%;
 }
 
+#chrona-about img {
+	max-width: 80%;
+}
+
 #chrona-callToAction {
-	background: #3b3ba8;
+	background: #00259A;
 	padding: 0;
 	border-bottom: 4px solid #fff;
 }
@@ -392,7 +396,7 @@ img {
 }
 
 #chrona-callToAction .callToAction p:hover {
-	color: #d89339;
+	color: #e7a236;
 	transition: .5s;
 }
 
@@ -508,7 +512,7 @@ img {
 	margin: 0;
 	padding: 5px;
 	background-color: #fff;
-	color: #3b3ba8;
+	color: #00259A;
 	font: 24px 'FrutigerLTStd-Roman';
 }
 
@@ -528,10 +532,8 @@ img {
 	padding: 0;
 }
 
-#chrona-sound .container {
-	width: 100%;
-	margin-left: 15%;
-	margin-right: 0 !important;
+#chrona-sound .container-full .row p a {
+	color: #e7a236;
 }
 
 .sound-text-width {
@@ -593,7 +595,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a i {
-	color: #3b3ba8;
+	color: #00259A;
 }
 
 .container-press {
@@ -666,6 +668,7 @@ ul.social-buttons li a i {
 
 #chrona-press p {
 	text-align: center;
+	font: 16px/140% 'FrutigerLTStd-Roman';
 }
 
 .row-center .press-quote-container:last-child {
@@ -1485,7 +1488,7 @@ footer form p:last-child input {
 
 }
 
-@media (min-width: 885) {
+@media (min-width: 885px) {
 	section {
 		padding: 50px 0;
 	}
