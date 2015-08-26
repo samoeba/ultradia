@@ -220,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
 	outline: 0;
-	color: #3b3ba8;
+	color: #e7a236;
 	-webkit-transition: all .5s ease-out;
 	-moz-transition: all .5s ease-out;
 	-o-transition: all .5s ease-out;
@@ -252,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-right li {
-	background-color: #d89339;
+	background-color: #00259A;
 	padding: 6px 0 4px 0;
 	margin: 0px 3px;
 	border-radius: 4px;
@@ -282,10 +282,10 @@ fieldset[disabled] .btn-xl.active {
 	transition: all .5s ease-out;
 }
 
-.navbar-right li:last-child {
-	margin-right: 0px;
-	background-color: #4D4D4D;
-}
+/*.navbar-right li:last-child {*/
+	/*margin-right: 0px;*/
+	/*background-color: #4D4D4D;*/
+/*}*/
 
 .nav-sn:hover {
 	color: #f84b00 !important;
