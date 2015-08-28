@@ -1,6 +1,9 @@
 *, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
   box-sizing: border-box; }
 
+.clearfix {
+  clear: both; }
+
 body {
   height: 100%;
   width: 100%;
@@ -105,8 +108,7 @@ p, h1, h2, h3, h4, h5, h6 {
   #hero-content .hero-title {
     position: relative;
     top: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 510px; }
     #hero-content .hero-title h1 {
       color: #fff;
@@ -125,7 +127,6 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #traits {
   width: 100%;
-  height: 130px;
   display: block;
   background-color: #EFEBEA;
   overflow: hidden; }
@@ -137,7 +138,8 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 33.3333%;
       position: relative;
       float: left;
-      padding-right: 26px; }
+      padding-right: 26px;
+      margin-top: 30px; }
       #traits .traits-container .trait:last-child {
         padding-right: 0; }
       #traits .traits-container .trait img {
@@ -147,12 +149,12 @@ p, h1, h2, h3, h4, h5, h6 {
         margin: 10px 25px 30px 0; }
       #traits .traits-container .trait:nth-child(2) img {
         margin-top: 0; }
-      #traits .traits-container .trait:last-child img {
+      #traits .traits-container .trait:nth-child(3) img {
         width: 76px;
         height: auto;
-        margin-top: 2px; }
+        margin: 2px 25px 30px 0; }
       #traits .traits-container .trait .trait-text-container {
-        width: 100%; }
+        width: 90%; }
         #traits .traits-container .trait .trait-text-container .trait-title {
           font: 22px/24px FrutigerLTStd-Roman;
           color: #444; }
@@ -160,11 +162,13 @@ p, h1, h2, h3, h4, h5, h6 {
           font: 14px/19px FrutigerLTStd-Light;
           color: #444; }
 
-#about-us .sec-container .about-title {
-  font: 36px FrutigerLTStd-Roman; }
-#about-us .sec-container p {
-  font: 18px/25px FrutigerLTStd-Light;
-  margin-bottom: 20px; }
+#about-us .sec-container {
+  margin: 80px auto; }
+  #about-us .sec-container .about-title {
+    font: 36px FrutigerLTStd-Roman; }
+  #about-us .sec-container p {
+    font: 18px/25px FrutigerLTStd-Light;
+    margin-bottom: 20px; }
 
 #openings-header {
   width: 100%;
@@ -179,6 +183,8 @@ p, h1, h2, h3, h4, h5, h6 {
       color: #fff;
       margin: 12px 0 0 0; }
 
+#openings .sec-container .row:first-child {
+  margin-top: 35px; }
 #openings .sec-container .row:nth-child(3n+3) {
   margin-top: 50px; }
 #openings .sec-container .row .position {
@@ -202,6 +208,8 @@ p, h1, h2, h3, h4, h5, h6 {
     font-family: FrutigerLTStd-Roman; }
     #openings .sec-container .row .position .view-more:focus {
       outline: 0; }
+#openings .sec-container .row:last-child {
+  margin-bottom: 60px; }
 
 footer {
   padding: 25px 0 20px;

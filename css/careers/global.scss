@@ -2,6 +2,17 @@
     box-sizing: border-box;
 }
 
+.clearfix{
+    clear: both;
+}
+
+//.clearfix:after {
+//    content: " ";
+//    display: block;
+//    height: 0;
+//    clear: both;
+//}
+
 body {
     height: 100%;
     width: 100%;

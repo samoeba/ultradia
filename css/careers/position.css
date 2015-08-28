@@ -1,0 +1,28 @@
+#hero-content {
+  background: linear-gradient(rgba(50, 50, 50, 0.35) 0%, rgba(50, 50, 50, 0.35) 100%), url(../../img/careers-android-dev-header.jpg), no-repeat;
+  background-size: cover; }
+  #hero-content .sec-container {
+    position: relative; }
+    #hero-content .sec-container .hero-title {
+      width: 600px; }
+      #hero-content .sec-container .hero-title h1 {
+        margin-top: 330px;
+        font-size: 40px; }
+    #hero-content .sec-container .back-btn
+    a {
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      color: #fff;
+      font: 20px; }
+      #hero-content .sec-container .back-btn
+      a:before {
+        content: "";
+        height: 16px;
+        width: 12px;
+        background: url(../../img/back-arrow.png) 0 0 no-repeat;
+        background-size: contain;
+        float: left;
+        margin: 1px 4px 0 0; }
+
+/*# sourceMappingURL=position.css.map */
