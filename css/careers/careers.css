@@ -1,3 +1,11 @@
+*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
+  box-sizing: border-box; }
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff; }
+
 p, h1, h2, h3, h4, h5, h6 {
   font-family: FrutigerLTStd-Roman; }
 
@@ -88,14 +96,6 @@ p, h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   border-bottom: 2px solid #F84B00; }
 
-*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
-  box-sizing: border-box; }
-
-body {
-  height: 100%;
-  width: 100%;
-  background-color: #fff; }
-
 #hero-content {
   position: relative;
   height: 450px;
@@ -178,5 +178,69 @@ body {
       font: 36px FrutigerLTStd-Roman;
       color: #fff;
       margin: 12px 0 0 0; }
+
+#openings .sec-container .row:nth-child(3n+3) {
+  margin-top: 50px; }
+#openings .sec-container .row .position {
+  width: 45%;
+  float: left; }
+  #openings .sec-container .row .position:first-child {
+    margin-right: 10%; }
+  #openings .sec-container .row .position:last-child {
+    width: 45%; }
+  #openings .sec-container .row .position p {
+    font-family: FrutigerLTStd-Light; }
+  #openings .sec-container .row .position .view-more {
+    margin-top: 12px;
+    background-color: #F84B00;
+    border: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 14px;
+    font-family: FrutigerLTStd-Roman; }
+    #openings .sec-container .row .position .view-more:focus {
+      outline: 0; }
+
+footer {
+  padding: 25px 0 20px;
+  text-align: center;
+  background-color: #444;
+  overflow: hidden; }
+  footer .sec-container {
+    margin-top: 0;
+    margin-bottom: 0; }
+    footer .sec-container .shrink:first-child {
+      text-align: left;
+      padding-left: 0; }
+  footer span.copyright {
+    text-transform: none;
+    font-family: 'FrutigerLTStd-Roman', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px;
+    color: #fff; }
+  footer ul .quicklinks {
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'FrutigerLTStd-Roman', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 40px; }
+
+.social-buttons {
+  margin-bottom: 0; }
+  .social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #444;
+    background-color: #fff;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; }
+    .social-buttons li a:hover, .social-buttons li a:focus, .social-buttons li a:active {
+      background-color: #F84B00; }
 
 /*# sourceMappingURL=careers.css.map */

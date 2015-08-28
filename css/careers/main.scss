@@ -1,14 +1,4 @@
 
-*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
-    box-sizing: border-box;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-}
-
 #hero-content {
     position: relative;
     height: 450px;
@@ -124,5 +114,88 @@ body {
 }
 
 #openings {
+    .sec-container{
+        .row {
+            &:nth-child(3n+3) {
+                margin-top: 50px;
+            }
+            .position {
+                width: 45%;
+                float: left;
+                &:first-child {
+                    margin-right: 10%;
+                }
+                &:last-child {
+                    width: 45%;
+                }
+                p {
+                    font-family: $light;
+                }
+                .view-more {
+                    margin-top: 12px;
+                    background-color: $ult-primary;
+                    border: none;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    color: #fff;
+                    padding: 10px 14px;
+                    font-family: $regular;
+                    &:focus {
+                        outline: 0;
+                    }
+                }
+            }
+        }
+    }
+}
 
+
+footer {
+    padding: 25px 0 20px;
+    text-align: center;
+    background-color: $ult-secondary;
+    overflow: hidden;
+    .sec-container {
+        margin-top: 0;
+        margin-bottom: 0;
+        .shrink:first-child {
+            text-align: left;
+            padding-left: 0;
+        }
+    }
+    span.copyright {
+        text-transform: none;
+        font-family: 'FrutigerLTStd-Roman', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 40px;
+        color: #fff;
+    }
+    ul {
+        .quicklinks {
+            margin-bottom: 0;
+            text-transform: none;
+            font-family: 'FrutigerLTStd-Roman', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 40px;
+        }
+    }
+}
+.social-buttons {
+    margin-bottom: 0;
+    li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        font-size: 20px;
+        line-height: 40px;
+        outline: 0;
+        color: $ult-secondary;
+        background-color: #fff;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        &:hover, &:focus, &:active {
+            background-color: $ult-primary;
+        }
+    }
 }
