@@ -1,17 +1,13 @@
 /*
-Error: Undefined variable: "$tertiary".
-        on line 2 of careers-nav.scss
+Error: Undefined variable: "$regular".
+        on line 2 of global.scss
 
-1: body {
-2:     background-color: $tertiary;
+1: p, h1, h2, h3, h4, h5, h6 {
+2:     font-family: $regular;
 3: }
-4: 
-5: .navbar-default {
-6: 	padding: 25px 0;
-7: 	border: 0;
 
 Backtrace:
-careers-nav.scss:2
+global.scss:2
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -63,4 +59,4 @@ careers-nav.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tertiary\".\A         on line 2 of careers-nav.scss\A \A 1: body {\A 2:     background-color: $tertiary;\A 3: }\A 4: \A 5: .navbar-default {\A 6: 	padding: 25px 0;\A 7: 	border: 0;"; }
+  content: "Error: Undefined variable: \"$regular\".\A         on line 2 of global.scss\A \A 1: p, h1, h2, h3, h4, h5, h6 {\A 2:     font-family: $regular;\A 3: }"; }

@@ -1,12 +1,15 @@
+body {
+    background-color: $tertiary;
+}
 
 .navbar-default {
-	padding: 25px 0;
-	border: 0;
-	background-color: rgba(255,255,255,.75);
-	-webkit-transition: padding .3s;
-	-moz-transition: padding .3s;
-	transition: padding .3s;
-  	.container-nav {
+    padding: 25px 0;
+    border: 0;
+    background-color: rgba(255,255,255,.75);
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    .container-nav {
         width: 1170px;
         margin: 0 auto;
         @media all and (max-width: 1250px) {
@@ -36,7 +39,7 @@
         }
         .nav:first-child {
             > .active > a {
-                background-color: $secondary;
+                background-color: #d89339;
                 color: #fff;
                 &:hover {
                     color: #fff;
@@ -44,9 +47,6 @@
             }
             li a {
                 color: #4D4D4D;
-                &:hover {
-                    color: $ult-primary;
-                }
             }
         }
         .navbar-right li {
@@ -93,9 +93,69 @@
 .navbar-shrink {
     padding: 10px 0;
     background-color: #fff;
-    border-bottom: 2px solid $ult-primary;
+    border-bottom: 2px solid $primary;
 }
 
+
+
+
+
+
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#hero-content {
+    position: relative;
+    height: 450px;
+    //background-image: url(../../img/careers-header.jpg);
+    //background-repeat: no-repeat;
+    //background-position: center center;
+    background: linear-gradient(rgba(30, 20, 20, .55) 0%, rgba(20, 20, 20, .55) 100%), url(../../img/careers-header-cropped.jpg), no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .hero-title {
+        position: relative;
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        h1 {
+            //-webkit-transform: translateY(-50%);
+            //-moz-transform: translateY(-50%);
+            //-ms-transform: translateY(-50%);
+            //transform: translateY(-50%);
+            //margin: 0 auto;
+            color: #fff;
+            margin-top: 270px;
+            text-align: center;
+            font-size: 66px;
+            font-family: $regular, sans-serif;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px #333;
+        }
+        h4 {
+            color: #fff;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 80px;
+            font-family: $light, sans-serif;
+        }
+    }
+}
+
+#traits {
+    .traits-container {
+        .trait {
+            position: relative;
+            padding-right: 16px;
+        }
+    }
+}
 
 
 

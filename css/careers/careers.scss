@@ -1,8 +1,11 @@
-.hero-content {
-	position: relative; /* positioning will be explained in a resource */
-	min-height: 600px; /* hero content element must be _at least_ 600 pixels */
-	background-image: url(../../img/bg-tile.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
+//Variables & Mixins
+@import "variables.scss";
+
+//Globals
+@import "global.scss";
+
+//Page Specifics
+@import "careers-nav.scss";
+
+//General Styles
+@import "main.scss";

@@ -1,12 +1,182 @@
-/* line 1, /Users/SamCasey/Documents/_Clients/Ultradia/Website/old/css/careers.scss */
-.hero-content {
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: FrutigerLTStd-Roman; }
+
+.sec-container {
+  width: 66%;
+  min-width: 960px;
+  margin: 22px auto;
+  color: #444; }
+
+.row {
+  margin: 0; }
+
+.navbar-default {
+  padding: 25px 0;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  -webkit-transition: padding .3s;
+  -moz-transition: padding .3s;
+  transition: padding .3s; }
+  .navbar-default .container-nav {
+    width: 1170px;
+    margin: 0 auto; }
+    @media all and (max-width: 1250px) {
+      .navbar-default .container-nav .container-nav {
+        width: 94%; } }
+    .navbar-default .container-nav .navbar-brand {
+      font-family: 'FrutigerLTStd-Roman', "Helvetica Neue", Helvetica, Arial, cursive;
+      color: #f84b00;
+      background-image: url(../../img/navbar-logo.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 275px;
+      height: 54px; }
+    .navbar-default .container-nav .nav li a {
+      text-transform: uppercase;
+      font-family: 'FrutigerLT-Bold', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      letter-spacing: 1px;
+      color: #fff;
+      line-height: 40px !important;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease; }
+    .navbar-default .container-nav .nav:first-child > .active > a {
+      background-color: #e7a236;
+      color: #fff; }
+      .navbar-default .container-nav .nav:first-child > .active > a:hover {
+        color: #fff; }
+    .navbar-default .container-nav .nav:first-child li a {
+      color: #4D4D4D; }
+      .navbar-default .container-nav .nav:first-child li a:hover {
+        color: #F84B00; }
+    .navbar-default .container-nav .navbar-right li {
+      background-color: #00259A;
+      padding: 6px 0 4px 0;
+      margin: 0px 3px;
+      border-radius: 4px; }
+      .navbar-default .container-nav .navbar-right li .chrona:before {
+        content: "";
+        width: 34px;
+        height: 34px;
+        background: url(../../img/chrona-button-logo-white.png) 0 0 no-repeat;
+        background-size: contain;
+        float: left;
+        margin: 4px 12px 0 0;
+        transition: all .3s ease; }
+      .navbar-default .container-nav .navbar-right li:hover .chrona {
+        color: #e7a236;
+        transition: all .3s ease; }
+        .navbar-default .container-nav .navbar-right li:hover .chrona:before {
+          content: "";
+          width: 34px;
+          height: 34px;
+          background: url(../../img/chrona-button-logo-color.png) 0 0 no-repeat;
+          background-size: contain;
+          float: left;
+          margin: 4px 12px 0 0;
+          transition: all .3s ease; }
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+
+.navbar-shrink {
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 2px solid #F84B00; }
+
+*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
+  box-sizing: border-box; }
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff; }
+
+#hero-content {
   position: relative;
-  /* positioning will be explained in a resource */
-  min-height: 600px;
-  /* hero content element must be _at least_ 600 pixels */
-  background-image: url(../assets/images/bloc_jams_bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; }
+  height: 450px;
+  background: linear-gradient(rgba(50, 50, 50, 0.55) 0%, rgba(50, 50, 50, 0.55) 100%), url(../../img/careers-header-cropped-blur.jpg), no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  #hero-content .hero-title {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px; }
+    #hero-content .hero-title h1 {
+      color: #fff;
+      margin-top: 270px;
+      text-align: center;
+      font-size: 66px;
+      font-family: FrutigerLTStd-Roman, sans-serif;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px #333; }
+    #hero-content .hero-title h4 {
+      color: #fff;
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 80px;
+      font-family: FrutigerLTStd-Light, sans-serif; }
+
+#traits {
+  width: 100%;
+  height: 130px;
+  display: block;
+  background-color: #EFEBEA;
+  overflow: hidden; }
+  #traits .traits-container {
+    width: 75%;
+    min-width: 1100px;
+    margin: 22px auto; }
+    #traits .traits-container .trait {
+      width: 33.3333%;
+      position: relative;
+      float: left;
+      padding-right: 26px; }
+      #traits .traits-container .trait:last-child {
+        padding-right: 0; }
+      #traits .traits-container .trait img {
+        width: 80px;
+        height: auto;
+        float: left;
+        margin: 10px 25px 30px 0; }
+      #traits .traits-container .trait:nth-child(2) img {
+        margin-top: 0; }
+      #traits .traits-container .trait:last-child img {
+        width: 76px;
+        height: auto;
+        margin-top: 2px; }
+      #traits .traits-container .trait .trait-text-container {
+        width: 100%; }
+        #traits .traits-container .trait .trait-text-container .trait-title {
+          font: 22px/24px FrutigerLTStd-Roman;
+          color: #444; }
+        #traits .traits-container .trait .trait-text-container .trait-descriptor {
+          font: 14px/19px FrutigerLTStd-Light;
+          color: #444; }
+
+#about-us .sec-container .about-title {
+  font: 36px FrutigerLTStd-Roman; }
+#about-us .sec-container p {
+  font: 18px/25px FrutigerLTStd-Light;
+  margin-bottom: 20px; }
+
+#openings-header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #444;
+  overflow: hidden; }
+  #openings-header .sec-container {
+    margin: 0 auto; }
+    #openings-header .sec-container h2 {
+      font: 36px FrutigerLTStd-Roman;
+      color: #fff;
+      margin: 12px 0 0 0; }
 
 /*# sourceMappingURL=careers.css.map */

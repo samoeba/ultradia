@@ -1,0 +1,9 @@
+.hero-content {
+  position: relative;
+  min-height: 600px;
+  background-image: url(../../img/bg-tile.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/*# sourceMappingURL=main.css.map */
