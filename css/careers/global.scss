@@ -1,0 +1,35 @@
+*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
+    box-sizing: border-box;
+}
+
+.clearfix{
+    clear: both;
+}
+
+//.clearfix:after {
+//    content: " ";
+//    display: block;
+//    height: 0;
+//    clear: both;
+//}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: $regular;
+}
+
+.sec-container {
+    width: 66%;
+    min-width: 960px;
+    margin: 22px auto;
+    color: $ult-secondary;
+}
+
+.row {
+    margin: 0;
+}

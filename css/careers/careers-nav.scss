@@ -1,76 +1,99 @@
-.container-nav {
-	width: 1170px;
-	margin: 0 auto;
-	@media all and (max-width: 1250px) {
-		.container-nav {
-			width: 94%;
-		}
-	}
-}
 
-//.chrona-page-logo {
 .navbar-default {
 	padding: 25px 0;
 	border: 0;
-	background-color: transparent;
+	background-color: rgba(255,255,255,.75);
 	-webkit-transition: padding .3s;
 	-moz-transition: padding .3s;
 	transition: padding .3s;
-	.navbar-shrink {
-		padding: 10px 0;
-		background-color: #fff;
-		border-bottom: 2px solid #3b3ba8;
-	}
-	.navbar-brand {
-    font-family: 'FrutigerLTStd-Roman',"Helvetica Neue",Helvetica,Arial,cursive;
-    color: #f84b00;
-    background-image: url(../img/chrona-header-24.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 275px;
-    height: 54px;
-	}
-	.nav li a {
-		text-transform: uppercase;
-		font-family: 'FrutigerLT-Bold',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-		letter-spacing: 1px;
-		color: #fff;
-		line-height: 40px !important;
-		-webkit-transition: all .5s ease-out;
-		-moz-transition: all .5s ease-out;
-		-o-transition: all .5s ease-out;
-		transition: all .5s ease-out;
-	}
-	.nav:first-child {
-		> .active > a {
-			background-color: #d89339;
-			color: #fff;
-			&:hover {
-				color: #fff;
-			}
-		}
-		li a {
-			color: #4D4D4D;
-		}	
-	}
+  	.container-nav {
+        width: 1170px;
+        margin: 0 auto;
+        @media all and (max-width: 1250px) {
+            .container-nav {
+                width: 94%;
+            }
+        }
+        .navbar-brand {
+            font-family: 'FrutigerLTStd-Roman', "Helvetica Neue", Helvetica, Arial, cursive;
+            color: #f84b00;
+            background-image: url(../../img/navbar-logo.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 275px;
+            height: 54px;
+        }
+        .nav li a {
+            text-transform: uppercase;
+            font-family: 'FrutigerLT-Bold', Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            letter-spacing: 1px;
+            color: #fff;
+            line-height: 40px !important;
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            transition: all .5s ease;
+        }
+        .nav:first-child {
+            > .active > a {
+                background-color: $secondary;
+                color: #fff;
+                &:hover {
+                    color: #fff;
+                }
+            }
+            li a {
+                color: #4D4D4D;
+                &:hover {
+                    color: $ult-primary;
+                }
+            }
+        }
+        .navbar-right li {
+            background-color: $primary;
+            padding: 6px 0 4px 0;
+            margin: 0px 3px;
+            border-radius: 4px;
+            .chrona {
+                &:before {
+                    content: "";
+                    width: 34px;
+                    height: 34px;
+                    background: url(../../img/chrona-button-logo-white.png) 0 0 no-repeat;
+                    background-size: contain;
+                    float: left;
+                    margin: 4px 12px 0 0;
+                    transition: all .3s ease;
+                }
+            }
+            &:hover .chrona {
+                color: $secondary;
+                transition: all .3s ease;
+                &:before {
+                    content: "";
+                    width: 34px;
+                    height: 34px;
+                    background: url(../../img/chrona-button-logo-color.png) 0 0 no-repeat;
+                    background-size: contain;
+                    float: left;
+                    margin: 4px 12px 0 0;
+                    transition: all .3s ease;
+                }
+            }
+        }
+    }
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
-.navbar-right li {
-	background-color: #4D4D4D;
-	padding: 6px 0 4px 0;
-	margin: 0px 3px;
-	border-radius: 4px;
-	&:last-child {
-		margin-right: 0;
-		background-color: #3b3ba8;
-	}
-	&:nth-child(3) {
-		background-color: #4D4D4D;
-	}
-}
-
-.nav-sn:focus {
-	color: #fff !important;
+.navbar-shrink {
+    padding: 10px 0;
+    background-color: #fff;
+    border-bottom: 2px solid $ult-primary;
 }
 
 
