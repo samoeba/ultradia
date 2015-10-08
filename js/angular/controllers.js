@@ -1,7 +1,7 @@
 //noinspection JSLint
 angular.module("ultradiaCareers")
 
-    .controller('CareersController', ["$scope", $http, "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
+    .controller('CareersController', ["$scope", "$http", "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
         "use strict";
 
         //GetOpenings.openings.then(function (positions) {
