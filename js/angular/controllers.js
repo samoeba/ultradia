@@ -8,7 +8,7 @@ angular.module("ultradiaCareers")
         //    $scope.openings = positions.data;
         //});
 
-        $http({ method: 'GET', url: '/careers/albums.json' }).success(function (data) {
+        $http({ method: 'GET', url: '/careers/positions.json' }).success(function (data) {
             console.log("Made it this far.");
             $scope.collection = data;
         });
