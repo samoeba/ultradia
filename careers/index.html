@@ -46,7 +46,7 @@
 
 </head>
 
-<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top" ng-app="ultradiaCareers">
+<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -153,8 +153,8 @@
         </div>
     </section>
 
-    <section id="openings" ng-controller="CareersController as careers">
-        <div class="sec-container">
+    <section id="openings" ng-app="ultradiaCareers">
+        <div class="sec-container" ng-controller="CareersController as careers">
 
             <div class="field-container" ng-repeat="field in careers.openings">
                 <div class="row">
