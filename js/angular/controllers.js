@@ -1,14 +1,14 @@
 //noinspection JSLint
 angular.module("ultradiaCareers")
 
-    .controller('CareersController', ["$scope", "$stateParams", "GetOpenings", function ($scope, $stateParams, GetOpenings) {
+    .controller('CareersController', ["$scope", $http, "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
         "use strict";
 
         //GetOpenings.openings.then(function (positions) {
         //    $scope.openings = positions.data;
         //});
 
-        $http({ method: 'GET', url: '/car/albums.json' }).success(function (data) {
+        $http({ method: 'GET', url: '/careers/albums.json' }).success(function (data) {
             console.log("Made it this far.");
             $scope.collection = data;
         });
