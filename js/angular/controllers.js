@@ -10,7 +10,8 @@ angular.module("ultradiaCareers")
 
         $http({ method: 'GET', url: '/careers/positions.json' }).success(function (data) {
             console.log("Made it this far.");
-            $scope.collection = data;
+            $scope.openings = data;
+            console.log("$scope.openings");
         });
 
         GetOpenings.openings.then(function (positions) {
