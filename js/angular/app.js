@@ -7,7 +7,7 @@ careersApp.config(function($stateProvider, $locationProvider){
     });
     $stateProvider
         .state('openings', {
-            url: "/",
+            url: "/openings",
             controller: "PositionController",
             templateUrl: "openings.html"
         });
