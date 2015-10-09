@@ -1,0 +1,18 @@
+<section id="openings" ng-app="ultradiaCareers">
+    <div class="sec-container" ng-controller="CareersController">
+
+        <div class="field-container" ng-repeat="field in openings">
+            <div class="row">
+                <h2 class="position-type">{{field.field}}</h2>
+            </div>
+            <div class="row">
+                <div class="position" ng-repeat="position in field.positions">
+                    <h4 class="position-title">{{position.title}}</h4>
+                    <p class="position-description">{{position.shortDes}}</p>
+                    <a ng-href="position/{{position.pid}}"><button class="view-more">View More</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
