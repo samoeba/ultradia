@@ -1,21 +1,23 @@
-<section id="hero-content">
-    <div class="sec-container">
-        <div class="hero-title">
-            <h1>TEST</h1>
+<div id="positionTmpl">
+    <section id="hero-content">
+        <div class="sec-container">
+            <div class="hero-title">
+                <h1>TEST</h1>
+            </div>
+            <p class="back-btn">
+                <a href="../careers/">Back to openings</a>
+            </p>
         </div>
-        <p class="back-btn">
-            <a href="../careers/">Back to openings</a>
-        </p>
-    </div>
-</section>
+    </section>
 
-<section class="job-description">
+    <section class="job-description">
 
-    <div class="sec-container">
-        <p>{{openings.positions.longDesc}}</p>
-        <ul>
-            <li ng-repeat="responsibilities in openings.positions.responsibilities.item"></li>
-        </ul>
-    </div>
+        <div class="sec-container">
+            <p>{{openings.positions.longDesc}}</p>
+            <ul>
+                <li ng-repeat="responsibilities in openings.positions.responsibilities.item"></li>
+            </ul>
+        </div>
 
-</section>
+    </section>
+</div>
