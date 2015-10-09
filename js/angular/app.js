@@ -13,7 +13,7 @@ careersApp.config(function($stateProvider, $locationProvider){
         })
         .state('positions', {
             url: "/position/:id",
-            controller: "PositionController",
+            controller: "CareersController",
             templateUrl: "position.html"
         });
 });
