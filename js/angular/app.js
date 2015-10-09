@@ -28,7 +28,7 @@ careersApp.directive('backImg', function(){
     return function(scope, element, attrs){
         attrs.$observe('backImg', function(value) {
             element.css({
-                'background': 'linear-gradient(rgba(50, 50, 50, .35) 0%, rgba(50, 50, 50, .35) 100%), url('+ value +'),  no-repeat;'
+                'background-image': 'url(' + value +')'
             });
         });
     };
