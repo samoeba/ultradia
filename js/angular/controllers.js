@@ -23,10 +23,11 @@ angular.module("ultradiaCareers")
 
     }])
 
-    .controller('PositionsController', ["$scope", "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
+    .controller('PositionsController', ["$scope", "$stateParams", "GetOpenings", function ($scope, $stateParams, GetOpenings) {
         "use strict";
 
         GetOpenings.openings.then(function (positions) {
+            console.log("PositionsCtrl test");
             $scope.openings = positions.data;
             $scope.position = positions.data[GetOpenings.getPositionById($scope.openings, $stateParams.id)];
         });
