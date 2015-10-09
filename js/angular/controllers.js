@@ -22,7 +22,7 @@ angular.module("ultradiaCareers")
         GetOpenings.openings.then(function (positions) {
             $scope.openings = positions.data;
             console.log($scope.openings);
-            $scope.position = positions.data[GetOpenings.getField($scope.openings, $stateParams.id)];
+            $scope.position = positions.data[GetOpenings.getField($scope.openings, $stateParams.field)].positions[GetOpenings.getPositionById($scope.openings, $stateParams.field, $stateParams.id)];
             console.log($scope.position);
             console.log(GetOpenings.getPositionById($scope.openings, $stateParams.id));
         });
