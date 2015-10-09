@@ -6,12 +6,21 @@
       { "pid": "marketing-specialist",
         "title": "Marketing Specialist",
         "shortDes": "Chrona has the potential to help millions of sleep-deprived workers, students, and patients around the world. Help us find and engage these sleepless individuals and organizations to share with them the benefits of Chrona.",
-        "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "longDes": "We are looking for a teammate who's friendly, curious, and loves human interaction on the Interwebs. We'll work with you on the skills, powers, and secrets of social media, so you can take the helm at operating and growing Ultradia's online presence. In your role, you will represent the Chrona brand, and your voice will help us reach the people who need Chrona the most. Your day-to-day activities will revolve around meaningful interactions with loyal customers, desperate insomniacs, and skeptical researchers, so a deep capacity for empathy is a must!",
         "responsibilities": [
-          { "item": "Be a cool person" },
-          { "item": "Sing to us" }
+          { "item": "Create online media and posts for the Chrona project and brand" },
+          { "item": "Discover, organize, and connect online resources relevant to the Chrona project" },
+          { "item": "Communicate directly with individuals and organizations to build genuine relationships" },
+          { "item": "Collaborate with Ultradia's creative team to evolve the presentation of Chrona's brand and voice" },
+          { "item": "Explore, learn, and become a leader in the scientific and industry communities relevant to the Chrona project" },
+          { "item": "Discover, organize, and connect online resources relevant to the Chrona project" }
         ],
-        "closing": "Here is the closing",
+        "bonuses": [
+          { "point": "You have experience running a Facebook page, Twitter handle, or other social media accounts" },
+          { "point": "You have an interest in health & wellness, dreaming, scientific research, or wearable technology" },
+          { "point": "You are looking to join a young, ambitious team, and want to play a major role in its future" }
+        ],
+        "closing": "If this sounds like a perfect match, we want to hear from you! We are open to candidates from all backgrounds, with the understanding that we're a growing start-up. Where we are lacking in salary and benefits, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. This position is a part-time opportunity with the possibility to become full-time. It's on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
         "image": "../img/Chrona-Horizontal.png"
       },
       { "pid": "brand-purveyor",
