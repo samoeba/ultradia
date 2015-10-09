@@ -26,6 +26,8 @@ angular.module("ultradiaCareers")
     .controller('PositionsController', ["$scope", "$stateParams", "GetOpenings", function ($scope, $stateParams, GetOpenings) {
         "use strict";
 
+        console.log($stateParams.id);
+
         GetOpenings.openings.then(function (positions) {
             console.log("PositionsCtrl test");
             $scope.openings = positions.data;
