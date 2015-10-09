@@ -1,37 +1,38 @@
-
-#hero-content {
-    background: linear-gradient(rgba(50, 50, 50, .35) 0%, rgba(50, 50, 50, .35) 100%), url(../../img/careers-android-dev-header.jpg), no-repeat;
-    background-size: cover;
-    .sec-container {
-        position: relative;
-        .hero-title {
-            width: 600px;
-            h1 {
-                margin-top: 330px;
-                font-size: 40px;
+#positionTmpl {
+    #hero-content {
+        background: linear-gradient(rgba(50, 50, 50, .35) 0%, rgba(50, 50, 50, .35) 100%), url(../../img/careers-android-dev-header.jpg), no-repeat;
+        background-size: cover;
+        .sec-container {
+            position: relative;
+            .hero-title {
+                width: 600px;
+                h1 {
+                    margin-top: 330px;
+                    font-size: 40px;
+                }
             }
-        }
-        .back-btn
+            .back-btn
             a {
                 position: absolute;
                 bottom: 4px;
                 left: 0;
                 color: #fff;
-                font: 20px;
-            &:before {
-                content: "";
-                height: 16px;
-                width: 12px;
-                background: url(../../img/back-arrow.png) 0 0 no-repeat;
-                background-size: contain;
-                float: left;
-                margin: 1px 4px 0 0;
+                font-size: 20px;
+                &:before {
+                    content: "";
+                    height: 16px;
+                    width: 12px;
+                    background: url(../../img/back-arrow.png) 0 0 no-repeat;
+                    background-size: contain;
+                    float: left;
+                    margin: 1px 4px 0 0;
+                }
             }
         }
     }
-}
 
-.job-description {
-    height: 300px;
-    width: 100%;
+    .job-description {
+        height: 300px;
+        width: 100%;
+    }
 }
