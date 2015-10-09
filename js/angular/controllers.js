@@ -8,11 +8,11 @@ angular.module("ultradiaCareers")
         //    $scope.openings = positions.data;
         //});
 
-        $http({ method: 'GET', url: '/careers/positions.json' }).success(function (data) {
-            console.log("Made it this far.");
-            $scope.openings = data;
-            console.log($scope.openings);
-        });
+        //$http({ method: 'GET', url: '/careers/positions.json' }).success(function (data) {
+        //    console.log("Made it this far.");
+        //    $scope.openings = data;
+        //    console.log($scope.openings);
+        //});
 
         GetOpenings.openings.then(function (positions) {
             $scope.openings = positions.data;
