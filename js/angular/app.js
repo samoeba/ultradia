@@ -11,7 +11,7 @@ careersApp.config(function($stateProvider) {
     //    requireBase: false
     //});
     $stateProvider
-        .state("career", {
+        .state("careers", {
             url: "",
             templateUrl: "openings.html",
             controller: "CareersController"
