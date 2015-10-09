@@ -14,9 +14,9 @@ angular.module("ultradiaCareers")
             console.log($scope.openings);
         });
 
-        GetOpenings.openings.then(function (positions) {
-            $scope.openings = positions.data;
-            $scope.album = positions.data[GetOpenings.getPositionById($scope.openings, "pid", $stateParams.id)];
-        });
+        //GetOpenings.openings.then(function (positions) {
+        //    $scope.openings = positions.data;
+        //    $scope.album = positions.data[GetOpenings.getPositionById($scope.openings, "pid", $stateParams.id)];
+        //});
 
     }]);
