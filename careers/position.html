@@ -13,11 +13,9 @@
     <section class="job-description">
 
         <div class="sec-container">
-            <p>Hey</p>
-
-            <p>{{openings.positions.longDesc}}</p>
+            <p>{{position.longDesc}}</p>
             <ul>
-                <li ng-repeat="responsibilities in openings.positions.responsibilities.item"></li>
+                <li ng-repeat="responsibilities in position.responsibilities">{{responsibilities.item}}</li>
             </ul>
         </div>
 
