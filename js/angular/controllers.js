@@ -29,6 +29,7 @@ angular.module("ultradiaCareers")
         GetOpenings.openings.then(function (positions) {
             console.log("PositionsCtrl test");
             $scope.openings = positions.data;
+            console.log($scope.openings);
             $scope.position = positions.data[GetOpenings.getPositionById($scope.openings, $stateParams.id)];
         });
 
