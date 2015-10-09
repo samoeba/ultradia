@@ -1,5 +1,4 @@
 #positionTmpl #hero-content {
-  background: linear-gradient(rgba(50, 50, 50, 0.35) 0%, rgba(50, 50, 50, 0.35) 100%), url(../../img/careers-android-dev-header.jpg), no-repeat;
   background-size: cover;
   height: 400px; }
   #positionTmpl #hero-content .sec-container {
