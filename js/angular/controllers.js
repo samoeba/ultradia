@@ -1,7 +1,7 @@
 //noinspection JSLint
 angular.module("ultradiaCareers")
 
-    .controller('CareersController', ["$scope", "$http", "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
+    .controller('CareersController', ["$scope", "GetOpenings", function ($scope, GetOpenings) {
         "use strict";
 
         //GetOpenings.openings.then(function (positions) {
@@ -16,11 +16,12 @@ angular.module("ultradiaCareers")
 
         GetOpenings.openings.then(function (positions) {
             $scope.openings = positions.data;
+            console.log("test");
         });
 
     }])
 
-    .controller('PositionsController', ["$scope", "$http", "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
+    .controller('PositionsController', ["$scope", "$stateParams", "GetOpenings", function ($scope, $http, $stateParams, GetOpenings) {
         "use strict";
 
         GetOpenings.openings.then(function (positions) {
