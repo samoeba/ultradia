@@ -68,10 +68,10 @@
                 <div class="position" ng-repeat="position in field.positions">
                     <h4 class="position-title">{{position.title}}</h4>
                     <p class="position-description">{{position.shortDes}}</p>
-                    <a ng-href="position/{{position.pid}}"><button class="view-more">View More</button></a>
+                    <a ng-click="$state.go('position', {id: position.pid})"><button class="view-more">View More</button></a>
+                    <!--<a ui-sref="position({id: position.pid})"><button class="view-more">View More</button></a>-->
                 </div>
             </div>
         </div>
-
     </div>
 </section>
