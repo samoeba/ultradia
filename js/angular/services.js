@@ -10,6 +10,9 @@ var careersServices = angular.module("services", [])
         return {
 
             openings: GetOpenings.openings,
+            getFieldByPositionId: function () {
+                
+            },
             getPositionById: function (data, value) {
                 for (i = 0; i < data.length; i++) {
                     if (data[i].positions[0].pid == value) {
