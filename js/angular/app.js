@@ -6,7 +6,7 @@ careersApp.config(function($stateProvider, $locationProvider){
         requireBase: false
     });
     $stateProvider
-        .state('positions', {
+        .state('position', {
             url: "/position/:id",
             templateUrl: "position.html",
             controller: "PositionsController"
