@@ -14,6 +14,8 @@ angular.module("ultradiaCareers")
         //    console.log($scope.openings);
         //});
 
+        console.log("Made it to here");
+
         GetOpenings.openings.then(function (positions) {
             $scope.openings = positions.data;
             console.log("test");
