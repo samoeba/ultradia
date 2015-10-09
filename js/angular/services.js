@@ -21,7 +21,7 @@ var careersServices = angular.module("services", [])
                 for (i = 0; i < data.length; i++) {
                     if (data[i].field == fieldValue) {
                         for (j = 0; j < data[i].positions.length; j++) {
-                            if (data[i].positions[j] == idValue) {
+                            if (data[i].positions[j].pid == idValue) {
                                 return j;
                             }
                         }
