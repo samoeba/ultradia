@@ -1,5 +1,5 @@
 #positionTmpl #hero-content {
-  background-size: cover;
+  background-size: cover !important;
   height: 400px; }
   #positionTmpl #hero-content .sec-container {
     position: relative; }
