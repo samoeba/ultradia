@@ -18,7 +18,7 @@ angular.module("ultradiaCareers")
 
         GetOpenings.openings.then(function (positions) {
             $scope.openings = positions.data;
-            console.log($scope.openings[0]);
+            console.log($scope.openings[0].positions[0].pid);
             $scope.position = positions.data[GetOpenings.getPositionById($scope.openings, $stateParams.id)];
             console.log($scope.position);
             console.log(GetOpenings.getPositionById($scope.openings, $stateParams.id));
