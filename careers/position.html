@@ -5,7 +5,7 @@
                 <h1>{{position.title}}</h1>
             </div>
             <p class="back-btn">
-                <a href="../careers/">Back to openings</a>
+                <a ui-sref="careers">Back to openings</a>
             </p>
         </div>
     </section>
@@ -13,10 +13,11 @@
     <section class="job-description">
 
         <div class="sec-container">
-            <p>{{position.longDesc}}</p>
+            <p>{{position.longDes}}</p>
             <ul>
-                <li ng-repeat="responsibilities in position.responsibilities">{{responsibilities.item}}</li>
+                <li ng-repeat="responsibility in position.responsibilities">{{responsibility.item}}</li>
             </ul>
+            <p>{{position.closing}}</p>
         </div>
 
     </section>
