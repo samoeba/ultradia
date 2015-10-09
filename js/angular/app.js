@@ -1,6 +1,6 @@
-var careersApp = angular.module("ultradiaCareers", ["ui.router", "services"])
+var careersApp = angular.module("ultradiaCareers", ["ui.router", "services"]);
 
-.config(function($stateProvider, $locationProvider){
+careersApp.config(function($stateProvider, $locationProvider){
     $locationProvider.html5Mode({
         enabled: true,
         requireBase: false
