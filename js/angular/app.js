@@ -16,5 +16,5 @@ careersApp.config(function($stateProvider, $locationProvider, $urlRouterProvider
             templateUrl: "position.html",
             controller: "PositionsController"
         });
-    $urlRouterProvider.otherwise('/');
+    //$urlRouterProvider.otherwise('/');
 });
