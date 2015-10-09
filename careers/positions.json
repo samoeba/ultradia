@@ -7,12 +7,22 @@
         "title": "Marketing Specialist",
         "shortDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
         "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "responsibilities": [
+          { "item": "Be a cool person" },
+          { "item": "Sing to us" }
+        ],
+        "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
       },
       { "pid": "brand-purveyor",
         "title": "Brand Purveyor",
         "shortDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
         "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "responsibilities": [
+          { "item": "Be a cool person" },
+          { "item": "Sing to us" }
+        ],
+        "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
       }
 
@@ -27,12 +37,22 @@
         "title": "Android Engineer",
         "shortDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
         "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "responsibilities": [
+          { "item": "Be a cool person" },
+          { "item": "Sing to us" }
+        ],
+        "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
       },
       { "pid": "ios-engineer",
         "title": "iOS Engineer",
         "shortDes": "We’re looking for an iOS Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful iOS apps for phones and tablets.",
         "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "responsibilities": [
+          { "item": "Be a cool person" },
+          { "item": "Sing to us" }
+        ],
+        "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
       }
 
