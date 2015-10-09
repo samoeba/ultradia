@@ -12,7 +12,7 @@ careersApp.config(function($stateProvider) {
     //});
     $stateProvider
         .state("home", {
-            url: "/careers",
+            url: "",
             templateUrl: "openings.html",
             controller: "CareersController"
         }
