@@ -6,10 +6,10 @@ var careersApp = angular.module("ultradiaCareers", ["ui.router", "services"]);
 //});
 
 careersApp.config(function($stateProvider) {
-    //$locationProvider.html5Mode({
-    //    enabled: true,
-    //    requireBase: false
-    //});
+    $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+    });
     $stateProvider
         .state("careers", {
             url: "",
