@@ -24,9 +24,9 @@
         float: left;
         margin: 1px 4px 0 0; }
 #positionTmpl .job-description {
-  width: 100%;
-  font: 16px/18px; }
+  width: 100%; }
   #positionTmpl .job-description .sec-container {
-    width: 900px; }
+    width: 900px;
+    font: 16px/18px; }
 
 /*# sourceMappingURL=position.css.map */
