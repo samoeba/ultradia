@@ -35,12 +35,30 @@
           { "item": "Learning and growing with evolving online advertising tools and techniques"}
         ],
         "bonuses": [
-          { "point": "You’re familiar with advertisement tools on Facebook, Twitter and Google AdWords. (Double points if you’re a fan of Gary Vaynerchuk)." },
+          { "point": "You’re familiar with advertisement tools on Facebook, Twitter and Google AdWords. (Double points if you’re a fan of Gary Vaynerchuk)" },
           { "point": "You have experience in the health & wellness or wearable technology industries" },
           { "point": "You are looking to join a young ambitious team and want to play a major role in shaping its future" }
         ],
         "closing": "Sounds like what you’re looking for? We are open to candidates from all backgrounds, with the understanding that Ultradia is a growing start-up. Where we are lacking in material compensation, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. This position is a part-time opportunity with the possibility to become full-time. It’s on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
         "image": "https://chronasleep.com/careers/careers-android-dev-header.jpg"
+      },
+      { "pid": "sales-specialist-b2b",
+        "title": "Sales Specialist, B2B",
+        "shortDes": "Corporations are people too, and people need quality sleep to be at their best. Help us connect with new partners, share the Chrona experience, and build meaningful relationships with others working to make a difference.",
+        "longDes": "We are looking for a high-energy sales partner to join us in bringing Chrona to select organizations and distributors. Your game starts with the needs of the organization and ends with a powerful relationship that impacts the quality of life for people around the world.",
+        "responsibilities": [
+          { "item": "Researching customer needs to craft targeted sales messages and calls" },
+          { "item": "Engaging potential partners to lead, negotiate, and manage relationships" },
+          { "item": "Collaborating to optimize sales strategies, processes, and software use" },
+          { "item": "Coordinating sales delivery and customer relations"}
+        ],
+        "bonuses": [
+          { "point": "You have experience in the health & wellness or wearable technology industries" },
+          { "point": "You are looking to join a young ambitious team and want to play a major role in shaping its future" },
+          { "point": "You are looking to join a young ambitious team and want to play a major role in shaping its future" }
+        ],
+        "closing": "Sounds like what you’re looking for? We are open to candidates from all backgrounds, with the understanding that Ultradia is a growing start-up. Where we are lacking in material compensation, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. This position is a part-time opportunity with the possibility to become full-time. It’s on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
+        "image": "/careers/careers-android-dev-header.jpg"
       }
 
     ]
