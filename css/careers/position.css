@@ -24,7 +24,8 @@
         float: left;
         margin: 1px 4px 0 0; }
 #positionTmpl .job-description {
-  width: 100%; }
+  width: 100%;
+  font: 16px/1.8; }
   #positionTmpl .job-description .sec-container {
     width: 900px; }
 
