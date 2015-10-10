@@ -121,6 +121,7 @@
                     margin-top: 35px;
                 }
                 &:last-child {
+                    margin-bottom: 40px;
                     .position:nth-child(2n+3) {
                         margin-top: 20px;
                     }
@@ -154,9 +155,6 @@
                             outline: 0;
                         }
                     }
-                }
-                &:last-child {
-                    margin-bottom: 60px;
                 }
             }
         }

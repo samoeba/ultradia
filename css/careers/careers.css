@@ -185,8 +185,10 @@ p, h1, h2, h3, h4, h5, h6, li {
 
 #openings .sec-container .field-container .row:first-child {
   margin-top: 35px; }
-#openings .sec-container .field-container .row:last-child .position:nth-child(2n+3) {
-  margin-top: 20px; }
+#openings .sec-container .field-container .row:last-child {
+  margin-bottom: 40px; }
+  #openings .sec-container .field-container .row:last-child .position:nth-child(2n+3) {
+    margin-top: 20px; }
 #openings .sec-container .field-container .row:nth-child(3n+3) {
   margin-top: 50px; }
 #openings .sec-container .field-container .row .position {
@@ -210,8 +212,6 @@ p, h1, h2, h3, h4, h5, h6, li {
     font-family: FrutigerLTStd-Roman; }
     #openings .sec-container .field-container .row .position .view-more:focus {
       outline: 0; }
-#openings .sec-container .field-container .row:last-child {
-  margin-bottom: 60px; }
 
 footer {
   padding: 25px 0 20px;
