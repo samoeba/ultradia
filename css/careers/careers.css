@@ -183,20 +183,22 @@ p, h1, h2, h3, h4, h5, h6, li {
       color: #fff;
       margin: 12px 0 0 0; }
 
-#openings .sec-container .row:first-child {
+#openings .sec-container .field-container .row:first-child {
   margin-top: 35px; }
-#openings .sec-container .row:nth-child(3n+3) {
+#openings .sec-container .field-container .row:last-child .position:last-child {
+  margin-top: 20px; }
+#openings .sec-container .field-container .row:nth-child(3n+3) {
   margin-top: 50px; }
-#openings .sec-container .row .position {
+#openings .sec-container .field-container .row .position {
   width: 45%;
   float: left; }
-  #openings .sec-container .row .position:first-child {
+  #openings .sec-container .field-container .row .position:first-child {
     margin-right: 10%; }
-  #openings .sec-container .row .position:last-child {
+  #openings .sec-container .field-container .row .position:last-child {
     width: 45%; }
-  #openings .sec-container .row .position p {
+  #openings .sec-container .field-container .row .position p {
     font-family: FrutigerLTStd-Light; }
-  #openings .sec-container .row .position .view-more {
+  #openings .sec-container .field-container .row .position .view-more {
     margin-top: 12px;
     background-color: #F84B00;
     border: none;
@@ -206,9 +208,9 @@ p, h1, h2, h3, h4, h5, h6, li {
     color: #fff;
     padding: 10px 14px;
     font-family: FrutigerLTStd-Roman; }
-    #openings .sec-container .row .position .view-more:focus {
+    #openings .sec-container .field-container .row .position .view-more:focus {
       outline: 0; }
-#openings .sec-container .row:last-child {
+#openings .sec-container .field-container .row:last-child {
   margin-bottom: 60px; }
 
 footer {
