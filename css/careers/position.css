@@ -31,6 +31,8 @@
       font: 16px/24px FrutigerLTStd-Light; }
 #positionTmpl #application .sec-container {
   width: 900px; }
+  #positionTmpl #application .sec-container h3 {
+    margin-bottom: 30px; }
   #positionTmpl #application .sec-container iframe {
     display: block;
     margin: 0 auto; }
