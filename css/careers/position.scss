@@ -6,6 +6,7 @@
         height: 400px;
         .sec-container {
             position: relative;
+            bottom: 40px;
             .hero-title {
                 width: 600px;
                 h1 {
@@ -36,7 +37,6 @@
         width: 100%;
         .sec-container {
             width: 900px;
-            bottom: 40px;
             p, li {
                 font: 16px/24px $light;
             }

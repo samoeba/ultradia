@@ -2,7 +2,8 @@
   background-size: cover !important;
   height: 400px; }
   #positionTmpl #hero-content .sec-container {
-    position: relative; }
+    position: relative;
+    bottom: 40px; }
     #positionTmpl #hero-content .sec-container .hero-title {
       width: 600px; }
       #positionTmpl #hero-content .sec-container .hero-title h1 {
@@ -26,8 +27,7 @@
 #positionTmpl .job-description {
   width: 100%; }
   #positionTmpl .job-description .sec-container {
-    width: 900px;
-    bottom: 40px; }
+    width: 900px; }
     #positionTmpl .job-description .sec-container p, #positionTmpl .job-description .sec-container li {
       font: 16px/24px FrutigerLTStd-Light; }
 #positionTmpl #application .sec-container {
