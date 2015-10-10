@@ -36,7 +36,9 @@
         width: 100%;
         .sec-container {
             width: 900px;
-            font: 16px/24px $light;
+            p {
+                font: 16px/24px $light;
+            }
         }
     }
 }
