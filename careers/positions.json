@@ -70,19 +70,22 @@
 
       { "pid": "android-engineer",
         "title": "Android Engineer",
-        "shortDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
-        "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+        "shortDes": "We’re looking for a mobile application developer to help refine the Chrona experience for Android users. Work alongside Ultradia creatives and lead a team of hired guns to build the Chrona app for Android users around the world.",
+        "longDes": "We are looking for a product-aware engineer who is thoughtful and passionate about designing an elegant user experience. If you’re well-versed in Android development and like getting your hands dirty in backend code, we need your help in delivering a mobile application that completes the Chrona experience. You will lead a remote team of experienced Android developers who will help execute your design and architecture. We’ll collaborate to integrate the Chrona application with hardware and server modules.",
         "responsibilities": [
-          { "item": "Be a cool person" },
-          { "item": "Sing to us" }
+          { "item": "Strong Java experience" },
+          { "item": "Exposure to architectural patterns of a hardware-, software-, and web-integrated application" },
+          { "item": "Aptitude for engineering and product sense, with design and UX sensibilities" },
+          { "item": "Experience shipping one or more Android apps" },
+          { "item": "Experience with a fitness- or sleep-tracking app or device that use BLE technology" },
+          { "item": "Ability to learn rapidly and get things done efficiently" },
+          { "item": "Looking to join a young ambitious team and play a major role in shaping its future" }
         ],
         "bonuses": [
-          { "point": "You have experience running a Facebook page, Twitter handle, or other social media accounts" },
-          { "point": "You have an interest in health & wellness, dreaming, scientific research, or wearable technology" },
-          { "point": "You are looking to join a young, ambitious team, and want to play a major role in its future" }
+
         ],
-        "closing": "Here is the closing",
-        "image": "../img/Chrona-Horizontal.png"
+        "closing": "We are looking for an experienced developer to become one of the leaders of the Chrona project, with the understanding that Ultradia is a growing start-up. Where we are lacking in material compensation, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. This position is a part-time opportunity with the possibility to become full-time. It’s on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
+        "image": "/careers/careers-android-dev-header.jpg"
       }
 
     ]
