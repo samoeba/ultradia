@@ -4,7 +4,7 @@
     "positions": [
 
       { "pid": "marketing-specialist",
-        "title": "Marketing Specialist",
+        "title": "Marketing Specialist, Social Media",
         "shortDes": "Chrona has the potential to help millions of sleep-deprived workers, students, and patients around the world. Help us find and engage these sleepless individuals and organizations to share with them the benefits of Chrona.",
         "longDes": "We are looking for a teammate who's friendly, curious, and loves human interaction on the Interwebs. We'll work with you on the skills, powers, and secrets of social media, so you can take the helm at operating and growing Ultradia's online presence. In your role, you will represent the Chrona brand, and your voice will help us reach the people who need Chrona the most. Your day-to-day activities will revolve around meaningful interactions with loyal customers, desperate insomniacs, and skeptical researchers, so a deep capacity for empathy is a must!",
         "responsibilities": [
@@ -23,16 +23,24 @@
         "closing": "If this sounds like a perfect match, we want to hear from you! We are open to candidates from all backgrounds, with the understanding that we're a growing start-up. Where we are lacking in salary and benefits, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. This position is a part-time opportunity with the possibility to become full-time. It's on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
         "image": "https://chronasleep.com/careers/careers-android-dev-header.jpg"
       },
-      { "pid": "brand-purveyor",
-        "title": "Brand Purveyor",
-        "shortDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
-        "longDes": "We’re looking for an Android Engineer to help us build an application that transforms how millions of people discover and collect inspiration everyday. Working closely with the creative team, you’ll build beautiful Android apps for phones and tablets.",
+      { "pid": "sales-specialist-online",
+        "title": "Sales Specialist, Online",
+        "shortDes": "Crafting the perfect pitch is not easy when your audience is everyone who uses a pillow. We're looking for a data-lover to help us optimize our message to resonate with all walks of online shoppers.",
+        "longDes": "Our ambitious business development team is looking for teammates who are analytical and data-driven to lead our online sales. We will work together to master the newest and most powerful tools in driving eCommerce to ensure Chrona reaches those who need it most.You'll explore our vast markets and craft poignant messages to connect with each segment of our sleepless customers. Chrona's many features and our broad audience are open to your selection for you to formulate communication strategies for maximum efficiency.",
         "responsibilities": [
-          { "item": "Be a cool person" },
-          { "item": "Sing to us" }
+          { "item": "Running advertisement campaigns through Facebook, Twitter, or Google AdWords" },
+          { "item": "Collaborating with Ultradia creatives to create targeted messages based on Chrona features and audiences" },
+          { "item": "Iterating and analyzing A/B tests to optimize conversion rates" },
+          { "item": "Leading the research and refinement of Chrona’s customer segments"},
+          { "item": "Learning and growing with evolving online advertising tools and techniques"}
         ],
-        "closing": "Here is the closing",
-        "image": "../img/Chrona-Horizontal.png"
+        "bonuses": [
+          { "point": "You’re familiar with advertisement tools on Facebook, Twitter and Google AdWords. (Double points if you’re a fan of Gary Vaynerchuk)." },
+          { "point": "You have experience in the health & wellness or wearable technology industries" },
+          { "point": "You are looking to join a young ambitious team and want to play a major role in shaping its future" }
+        ],
+        "closing": "Sounds like what you’re looking for? We are open to candidates from all backgrounds, with the understanding that Ultradia is a growing start-up. Where we are lacking in material compensation, we make up for with an awesome team, stimulating work, and a massive opportunity for growth. <br/> This position is a part-time opportunity with the possibility to become full-time. It’s on-site at our beautiful co-working center in Central West End, St. Louis, home to our community of sensible Midwestern do-gooders.",
+        "image": "https://chronasleep.com/careers/careers-android-dev-header.jpg"
       }
 
     ]
@@ -50,6 +58,11 @@
           { "item": "Be a cool person" },
           { "item": "Sing to us" }
         ],
+        "bonuses": [
+          { "point": "You have experience running a Facebook page, Twitter handle, or other social media accounts" },
+          { "point": "You have an interest in health & wellness, dreaming, scientific research, or wearable technology" },
+          { "point": "You are looking to join a young, ambitious team, and want to play a major role in its future" }
+        ],
         "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
       },
@@ -60,6 +73,11 @@
         "responsibilities": [
           { "item": "Be a cool person" },
           { "item": "Sing to us" }
+        ],
+        "bonuses": [
+          { "point": "You have experience running a Facebook page, Twitter handle, or other social media accounts" },
+          { "point": "You have an interest in health & wellness, dreaming, scientific research, or wearable technology" },
+          { "point": "You are looking to join a young, ambitious team, and want to play a major role in its future" }
         ],
         "closing": "Here is the closing",
         "image": "../img/Chrona-Horizontal.png"
