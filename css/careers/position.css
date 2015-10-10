@@ -26,7 +26,8 @@
 #positionTmpl .job-description {
   width: 100%; }
   #positionTmpl .job-description .sec-container {
-    width: 900px; }
+    width: 900px;
+    bottom: 40px; }
     #positionTmpl .job-description .sec-container p, #positionTmpl .job-description .sec-container li {
       font: 16px/24px FrutigerLTStd-Light; }
 #positionTmpl #application .sec-container {
