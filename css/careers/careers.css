@@ -185,7 +185,7 @@ p, h1, h2, h3, h4, h5, h6, li {
 
 #openings .sec-container .field-container .row:first-child {
   margin-top: 35px; }
-#openings .sec-container .field-container .row:last-child .position:last-child {
+#openings .sec-container .field-container .row:last-child .position:nth-child(2n+3) {
   margin-top: 20px; }
 #openings .sec-container .field-container .row:nth-child(3n+3) {
   margin-top: 50px; }

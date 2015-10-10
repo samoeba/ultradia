@@ -121,7 +121,7 @@
                     margin-top: 35px;
                 }
                 &:last-child {
-                    .position:last-child {
+                    .position:nth-child(2n+3) {
                         margin-top: 20px;
                     }
                 }
