@@ -653,10 +653,8 @@ section h3.section-subheading {
 
 /*---------------------------------------------------------------  Careers Button  ------------------------------------------------------------------*/
 
-
-/*
 .row .col-lg-12 .timeline>li:nth-last-child(3) {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 .row .col-lg-12 .timeline>li:nth-last-child(2) {
@@ -668,18 +666,23 @@ section h3.section-subheading {
 	margin-top: 110px;
 	min-height: 0;
 }
-*/
+
 
 .row .col-lg-12 .timeline>li .careerButton {
 	border-radius: 11px;
 	height: auto;
 	width: auto;
-	margin-left: -8.5%;
+	margin-left: -9%;
+    font: 22px 'FrutigerLTStd-Roman',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
 }
 
-.col-lg-12 .timeline>li .careerButton h4 {
-	margin: 0;
-	padding: 20px 20px 16px;
+.row .col-lg-12 .timeline>li .careerButton:hover {
+    text-decoration: none;
+    background-color: #D74100;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .timeline>li .timeline-image h4 {
