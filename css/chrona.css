@@ -840,9 +840,15 @@ footer .container .row .right {
 }
 
 footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .left .social-buttons {
+    overflow: hidden;
+    width: 50%;
+    margin-top: 20px !important;
 }
 
 footer .left ul li:first-child {

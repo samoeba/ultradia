@@ -18,7 +18,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy ({
     offset: 200
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
