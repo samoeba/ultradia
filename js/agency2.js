@@ -26,11 +26,6 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('#coverimageforplayer').click(function() {
-        var embedCode = '<iframe width="853" height="480" src="https://www.youtube.com/embed/WXYeOvggz1w?autoplay=1&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>';
+        var embedCode = '<iframe width="853" height="480" src="https://www.youtube.com/embed/-zi0hz1UaEQ?autoplay=1&rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>';
         $('#coverimageforplayer').html(embedCode);
-    });
-
-$('#coverimageforplayer-2').click(function() {
-        var embedCode2 = '<iframe width="853" height="480" src="https://www.youtube.com/embed/ULeS8J4pphk?autoplay=1&rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>';
-        $('#coverimageforplayer-2').html(embedCode2);
     });
