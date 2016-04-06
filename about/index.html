@@ -6,13 +6,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Ultradia</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
+    <link href="../css/agency.css" rel="stylesheet">
     <link href="../css/fonts.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -27,52 +42,85 @@
 
 </head>
 
-<body id="page-top" class="" data-spy="" data-target="">
+<body id="page-top" class="index" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-            <div class="">
-                <a id="logo" href="#page-top"></a>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll clearfix" href="#page-top"></a>
             </div>
-            <div class="">
-                <ul class="">
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ultradia-nav">
                     <li>
-                        <a class="chrona" href="../chrona/">Chrona</a>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#advisors">Collaborators</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll chrona" href="../chrona/">Chrona</a>
+                    </li>
+
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
     </nav>
 
-    <div class="slide-wrapper">
-        <header id="intro" class="slide">
-            <div class="">
+    <!-- Header -->
+    <header>
+        <div class="header-logo">
+            <!--<img src="../img/ultradia-header.png" alt="Welcome To Ultradia">-->
+        </div>
+        <div class="container">
+            <div class="intro-text">
+                <!--<div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-heading">It's Nice To Meet You</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>-->
             </div>
-
-        </header>
-        <section id="why" class="slide">
-
-        </section>
-    </div>
+        </div>
+    </header>
 
 
 <!--
-    	  +oooo/        -ooooooooo+/-`         `:osyyys+:        +ooo.       -ooo+  `ooooooooooooooo: 
-       -MMMMMM.       +MMMMMMMMMMMMMy.     -hMMMMMMMMMMNs`     NMMM:       /MMMd  `MMMMMMMMMMMMMMMo 
-       dMMNNMMh       +MMMd....-/dMMMd    /MMMNo-``.:yMMMN-    NMMM:       /MMMd   -----oMMMm-----. 
-      +MMMo+MMM:      +MMMh      -MMMN   .MMMM-       /MMMN`   NMMM:       /MMMd        /MMMd       
-     `NMMN` mMMm      +MMMd-----+mMMN/   sMMMy         dMMM/   NMMM:       /MMMd        /MMMd       
-     sMMM/  +MMMo     +MMMMMMMMMMMMy.    hMMM+         yMMMs   NMMM:       /MMMd        /MMMd       
-    .MMMd    mMMN`    +MMMm+++++smMMNo   hMMM+         yMMMo   NMMM:       /MMMd        /MMMd       
-    hMMMNddddNMMMy    +MMMh       dMMM/  oMMMh         NMMM:   NMMM:       /MMMd        /MMMd       
-   /MMMNNNNNNNNMMM-   +MMMh       dMMMo  `NMMM+       yMMMd    yMMMy       hMMMs        /MMMd       
-  `mMMM-      :MMMd   +MMMm++++osmMMMN.   .mMMMdo//+smMMMh`    `mMMMdo///omMMMd`        /MMMd       
-  oMMMy        dMMM/  +MMMMMMMMMMMNdo`      +dMMMMMMMMNh:        +dMMMMMMMMMd/          /MMMd       
-  ----`        `---.  `---------.`            `-:///:.             `-:///:-             `---. 
+    	  +oooo/        -ooooooooo+/-`         `:osyyys+:        +ooo.       -ooo+  `ooooooooooooooo:
+       -MMMMMM.       +MMMMMMMMMMMMMy.     -hMMMMMMMMMMNs`     NMMM:       /MMMd  `MMMMMMMMMMMMMMMo
+       dMMNNMMh       +MMMd....-/dMMMd    /MMMNo-``.:yMMMN-    NMMM:       /MMMd   -----oMMMm-----.
+      +MMMo+MMM:      +MMMh      -MMMN   .MMMM-       /MMMN`   NMMM:       /MMMd        /MMMd
+     `NMMN` mMMm      +MMMd-----+mMMN/   sMMMy         dMMM/   NMMM:       /MMMd        /MMMd
+     sMMM/  +MMMo     +MMMMMMMMMMMMy.    hMMM+         yMMMs   NMMM:       /MMMd        /MMMd
+    .MMMd    mMMN`    +MMMm+++++smMMNo   hMMM+         yMMMo   NMMM:       /MMMd        /MMMd
+    hMMMNddddNMMMy    +MMMh       dMMM/  oMMMh         NMMM:   NMMM:       /MMMd        /MMMd
+   /MMMNNNNNNNNMMM-   +MMMh       dMMMo  `NMMM+       yMMMd    yMMMy       hMMMs        /MMMd
+  `mMMM-      :MMMd   +MMMm++++osmMMMN.   .mMMMdo//+smMMMh`    `mMMMdo///omMMMd`        /MMMd
+  oMMMy        dMMM/  +MMMMMMMMMMMNdo`      +dMMMMMMMMNh:        +dMMMMMMMMMd/          /MMMd
+  ----`        `---.  `---------.`            `-:///:.             `-:///:-             `---.
 -->
-    
-    
+
+
     <section id="about" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -195,23 +243,23 @@
         </div>
     </section>
 
-   
+
 <!--
- .///////////////   ://///////////-       -////:        `/////-       `/////:   
- /MMMMMMMMMMMMMMM`  hMMMMMMMMMMMMMs      `mMMMMM-       :MMMMMN`      oMMMMMm   
- ./////dMMMy/////   hMMMy/////////-      oMMMNMMd       :MMMMMMs     .MMMMMMm   
-       hMMM+        hMMM/               .NMMd/MMM/      :MMMyMMM.    yMMmdMMm   
-       hMMM+        hMMM+```````        yMMM- mMMm`     :MMM/dMMy   -MMM:dMMm   
-       hMMM+        hMMMMMMMMMMd       -MMMy  /MMMo     :MMM:-MMM-  dMMh dMMm   
-       hMMM+        hMMMdhhhhhhs       dMMM.   dMMN.    :MMM: yMMd /MMM. dMMm   
-       hMMM+        hMMM/             /MMMNyyyydMMMy    :MMM: `NMM/mMMs  dMMm   
-       hMMM+        hMMM/            `NMMMMMMMMMMMMM-   :MMM:  oMMMMMN`  dMMm   
-       hMMM+        hMMMs::::::::::  sMMMs``````:MMMd   :MMM:  `mMMMM+   dMMm   
-       hMMM+        hMMMMMMMMMMMMMN .MMMN`       hMMM/  :MMM:   /MMMm    dMMm   
-       :+++-        :+++++++++++++/ -+++-        .+++:  .+++.    +++-    /++/   
-	
+ .///////////////   ://///////////-       -////:        `/////-       `/////:
+ /MMMMMMMMMMMMMMM`  hMMMMMMMMMMMMMs      `mMMMMM-       :MMMMMN`      oMMMMMm
+ ./////dMMMy/////   hMMMy/////////-      oMMMNMMd       :MMMMMMs     .MMMMMMm
+       hMMM+        hMMM/               .NMMd/MMM/      :MMMyMMM.    yMMmdMMm
+       hMMM+        hMMM+```````        yMMM- mMMm`     :MMM/dMMy   -MMM:dMMm
+       hMMM+        hMMMMMMMMMMd       -MMMy  /MMMo     :MMM:-MMM-  dMMh dMMm
+       hMMM+        hMMMdhhhhhhs       dMMM.   dMMN.    :MMM: yMMd /MMM. dMMm
+       hMMM+        hMMM/             /MMMNyyyydMMMy    :MMM: `NMM/mMMs  dMMm
+       hMMM+        hMMM/            `NMMMMMMMMMMMMM-   :MMM:  oMMMMMN`  dMMm
+       hMMM+        hMMMs::::::::::  sMMMs``````:MMMd   :MMM:  `mMMMM+   dMMm
+       hMMM+        hMMMMMMMMMMMMMN .MMMN`       hMMM/  :MMM:   /MMMm    dMMm
+       :+++-        :+++++++++++++/ -+++-        .+++:  .+++.    +++-    /++/
+
 -->
-   
+
     <section id="team">
         <div class="container">
             <div class="row">
@@ -239,11 +287,19 @@
 
                 <div class="col-sm-3">
                     <div class="team-member">
-                        <img src="../img/team/bob.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Bob Kerch</h4>
-                        <p class="text-muted">Chief Operating Officer</p>
+                        <img src="../img/team/blake.png" class="img-responsive img-circle" alt="">
+                        <h4>Blake Sakran</h4>
+                        <p class="text-muted">Head of R&D</p>
                     </div>
                 </div>
+
+                <!--<div class="col-sm-3">-->
+                    <!--<div class="team-member">-->
+                        <!--<img src="../img/team/bob.jpg" class="img-responsive img-circle" alt="">-->
+                        <!--<h4>Bob Kerch</h4>-->
+                        <!--<p class="text-muted">Chief Operating Officer</p>-->
+                    <!--</div>-->
+                <!--</div>-->
 
                 <div class="col-sm-3">
                     <div class="team-member">
@@ -255,14 +311,6 @@
 
             </div>
             <div class="row row-center">
-
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="../img/team/blake.png" class="img-responsive img-circle" alt="">
-                        <h4>Blake Sakran</h4>
-                        <p class="text-muted">Head of R&D</p>
-                    </div>
-                </div>
 
                 <div class="col-sm-3">
                     <div class="team-member">
@@ -289,46 +337,46 @@
                 </div>
 
             </div>
-            <div class="row row-center">
+            <!--<div class="row row-center">-->
 
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="../img/team/nate.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Nate Moman</h4>
-                        <p class="text-muted">Team Catalyst, Acoustic Engineer</p>
-                    </div>
-                </div>
+                <!--<div class="col-sm-3">-->
+                    <!--<div class="team-member">-->
+                        <!--<img src="../img/team/nate.jpg" class="img-responsive img-circle" alt="">-->
+                        <!--<h4>Nate Moman</h4>-->
+                        <!--<p class="text-muted">Team Catalyst, Acoustic Engineer</p>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="../img/team/bobby.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Bobby Kidera</h4>
-                        <p class="text-muted">Business Development Specialist</p>
-                    </div>
-                </div>
+                <!--<div class="col-sm-3">-->
+                    <!--<div class="team-member">-->
+                        <!--<img src="../img/team/bobby.jpg" class="img-responsive img-circle" alt="">-->
+                        <!--<h4>Bobby Kidera</h4>-->
+                        <!--<p class="text-muted">Business Development Specialist</p>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="../img/team/landon.png" class="img-responsive img-circle" alt="">
-                        <h4>Landon Washam</h4>
-                        <p class="text-muted">Controller</p>
-                    </div>
-                </div>
+                <!--<div class="col-sm-3">-->
+                    <!--<div class="team-member">-->
+                        <!--<img src="../img/team/landon.png" class="img-responsive img-circle" alt="">-->
+                        <!--<h4>Landon Washam</h4>-->
+                        <!--<p class="text-muted">Controller</p>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="../img/team/wade.png" class="img-responsive img-circle" alt="">
-                        <h4>Wade Zeng</h4>
-                        <p class="text-muted">Engineering &amp; Business Partner</p>
-                    </div>
-                </div>
+                <!--<div class="col-sm-3">-->
+                    <!--<div class="team-member">-->
+                        <!--<img src="../img/team/wade.png" class="img-responsive img-circle" alt="">-->
+                        <!--<h4>Wade Zeng</h4>-->
+                        <!--<p class="text-muted">Engineering &amp; Business Partner</p>-->
+                    <!--</div>-->
+                <!--</div>-->
 
-            </div>
+            <!--</div>-->
 
-            <div class="row row-center">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                </div>
-            </div>
+            <!--<div class="row row-center">-->
+                <!--<div class="col-lg-8 col-lg-offset-2 text-center">-->
+                <!--</div>-->
+            <!--</div>-->
 
         </div>
     </section>
